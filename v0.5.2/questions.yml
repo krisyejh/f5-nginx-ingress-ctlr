@@ -45,14 +45,14 @@ questions:
   default: "myregistry.example.com/nginx-plus-ingress"
   description: "The image repository of the Ingress controller"
   type: string
-  label: Controller Image
+  label: Controller Nginx Plus Image
   show_if: "controller.nginxplus=true"
   group: "Nginx Controller Settings"
 - variable: controller.image.tag
   default: "latest"
   description: "The tag of the Ingress controller image"
   type: string
-  label: Controller Image Tag
+  label: Controller Nginx Plus Image Tag
   show_if: "controller.nginxplus=true"
   group: "Nginx Controller Settings"
 - variable: controller.ingressClass
