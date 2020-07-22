@@ -53,7 +53,7 @@ questions:
   description: "The tag of the Ingress controller image"
   type: string
   label: Controller Image Tag
-  show_if: "controller.nginxplus=false"
+  show_if: "controller.nginxplus=true"
   group: "Nginx Controller Settings"
 - variable: controller.ingressClass
   default: "nginx"
